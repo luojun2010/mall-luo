@@ -1,6 +1,6 @@
 # 基于vuejs的高可用通用前端商城
 
-> 仿网易严选 + 小米有品
+> 仿网易严选 
 
 ## 如何学习和进行二次开发
 
@@ -11,7 +11,10 @@ HTML CSS3 ES6 VUEJS WEBPACK
 
 ``` bash
 # 安装依赖
-npm install // or yarn install
+npm install // or yarn install 有可能安装不上 npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver
+#  此处会多次出错,可安装淘宝的镜像   cnpm
+
+npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 # 如何运行
 npm run dev
